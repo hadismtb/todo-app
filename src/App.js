@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import AddTodo from "./components/AddTodo";
 
 // CONTEXT
-import TodoContextProvider from "./context/TodosContextProvider";
+import TodosContextProvider from "./context/TodosContextProvider";
 
 function App() {
   return (
