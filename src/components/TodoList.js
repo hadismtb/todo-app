@@ -20,6 +20,11 @@ const TodoList = () => {
                             <a className="nav-item nav-link font-weight-bold" id="nav-profile-tab">done<span className='badge bg-success rounded mx-1'>0</span ></a>
                         </div>
                     </nav>
+                    {
+                        todos.length ?
+                            todos.map(item => <Todo item={item} key={item.key}/>):
+                            <p>There isn't any todo!</p>
+                    }
                 </div>
             </div>
         </div>
