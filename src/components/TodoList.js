@@ -7,8 +7,12 @@ import Todo from './Todo';
 import { TodosContext } from '../context/TodosContextProvider';
 
 const TodoList = () => {
+    const [status, setStatus] = useState(false)
+
     const {state, dispatch} = useContext(TodosContext);
     const {todos} = state;
+
+    const filteredTodos = todos.filter(item => item.isDone === status);
 
     return (
         <div className='todoList mt-4'>
@@ -16,13 +20,13 @@ const TodoList = () => {
                 <div className='d-flex flex-column align-items-center'>
                     <nav className='col-6 mb-3'>
                         <div className='nav nav-tabs' id='tab-nav' role="tablist">
-                            <a className="nav-item nav-link font-weight-bold" id="nav-home-tab">undone<span className='badge bg-warning rounded mx-1'>0</span ></a>
-                            <a className="nav-item nav-link font-weight-bold" id="nav-profile-tab">done<span className='badge bg-success rounded mx-1'>0</span ></a>
+                            <a className="nav-item nav-link font-weight-bold" id="nav-home-tab" onClick={() => setStatus(false)}>undone<span className='badge bg-warning rounded mx-1'>0</span ></a>
+                            <a className="nav-item nav-link font-weight-bold" id="nav-profile-tab" onClick={() => setStatus(true)}>done<span className='badge bg-success rounded mx-1'>0</span ></a>
                         </div>
                     </nav>
                     {
-                        todos.length ?
-                            todos.map(item => <Todo key={item.key} item={item} dispatch={dispatch}/>):
+                        filteredTodos.length ?
+                            filteredTodos.map(item => <Todo key={item.key} item={item} dispatch={dispatch}/>):
                             <p>There isn't any todo!</p>
                     }
                 </div>
