@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Todo = () => {
+const Todo = ({item}) => {
+    const {text} = item;
     return (
         <div className='col-6 mb-2'>
             <div className='d-flex justify-content-between align-items-center border border-light border-rounded p-3'>
-                <div>title</div>
+                <div>{text}</div>
                 <div>
                     <button type="button" class="btn btn-sm btn-success">done</button>
                     <button type="button" class="btn btn-sm btn-info mx-1 text-white">edit</button>
