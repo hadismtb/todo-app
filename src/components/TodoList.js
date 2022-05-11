@@ -1,10 +1,14 @@
 import React, { useState, useContext } from 'react';
 
+// COMPONENTS
+import Todo from './Todo';
+
 // CONTEXT
 import { TodosContext } from '../context/TodosContextProvider';
 
 const TodoList = () => {
     const {state, dispatch} = useContext(TodosContext);
+    const {todos} = state;
 
     return (
         <div className='todoList mt-4'>
