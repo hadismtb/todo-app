@@ -18,13 +18,17 @@ const AddTodo = () => {
     const submitHandler = e => {
         e.preventDefault();
         if(input.trim()){
-            setTodo({
+            // setTodo({
+            //     key: Date.now(),
+            //     text: input,
+            //     isDone: false
+            // })
+            dispatch({type: "ADD", payload: {
                 key: Date.now(),
                 text: input,
                 isDone: false
-            })
-            dispatch({type: "ADD", payload: todo});
-            setInput("")
+            }});
+            setInput("");
         }
     }
 

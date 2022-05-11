@@ -22,7 +22,7 @@ const TodoList = () => {
                     </nav>
                     {
                         todos.length ?
-                            todos.map(item => <Todo item={item} key={item.key}/>):
+                            todos.map(item => <Todo key={item.key} item={item}/>):
                             <p>There isn't any todo!</p>
                     }
                 </div>
