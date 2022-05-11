@@ -6,7 +6,6 @@ const initialState = {
 }
 
 const todosReducer = (state, action) => {
-    console.log(state)
     const {type, payload} = action;
 
     switch(type){
