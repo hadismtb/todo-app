@@ -1,0 +1,154 @@
+[33mcommit 191df281e1e10784f228e12b8e6b2664d485211c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 19:22:22 2022 +0430
+
+    create a function for counting todos based on their status
+
+[33mcommit 55617b921a0d2aeb9c1fe5afae50280f2a89709b[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 19:18:10 2022 +0430
+
+    add a filter (done/undone) feature for todo list
+
+[33mcommit 893cad3a522aea285e84b2766d68821a108e0196[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 19:11:55 2022 +0430
+
+    click handler set for done and delete button
+
+[33mcommit 9e79409463b05459d948a91ceb26cf7e248a2a96[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 19:07:25 2022 +0430
+
+    send dispatch as a props to todo for todo handlers
+
+[33mcommit bab20453b531a8f6dbc8738ff5441ab098f6e366[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 19:04:28 2022 +0430
+
+    render todo list and create todo
+
+[33mcommit e6fc5dca6fbed61f4d6000ad7893c63d02ef3bee[m
+Merge: 1117ec4 fa0cde8
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 18:46:09 2022 +0430
+
+    Merge branch 'todo-list'
+    show the todos in UI
+
+[33mcommit fa0cde8ad5a444387c2dbb9b2473dbec6aeaf8bc[m[33m ([m[1;32mtodo-list[m[33m)[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 18:45:37 2022 +0430
+
+    render the todos list from the todos context
+
+[33mcommit f7675beb62b7bb9974870441fc4f5d51132a1e47[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 18:40:20 2022 +0430
+
+    make ready todo component for rendering and get the props
+
+[33mcommit 651c90e9af503d4739a6912dd2cb5f7732132f34[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 18:31:37 2022 +0430
+
+    import todo component to todo list component
+
+[33mcommit 226899b5f21a8fc1587a152ebb1b4b777dc7f9b3[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 18:28:07 2022 +0430
+
+    import todo context to todo list component
+
+[33mcommit 1117ec448013c6384230ce45f11872ddb6f3cda8[m
+Merge: 25cf49b c24d72d
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 18:22:25 2022 +0430
+
+    Merge branch 'add-todo'
+    
+    import context to add todo component and create handlers for todo addition
+
+[33mcommit c24d72d080a2de194f99b91fc41e0fc5ad3e70dd[m[33m ([m[1;32madd-todo[m[33m)[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 18:15:35 2022 +0430
+
+    import todos context to add todo component and create handlers for todo addition
+
+[33mcommit 25cf49b3f7aabedbb66ca5e12c38ae9ebe25a0e4[m[33m ([m[1;32mtodo[m[33m)[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 16:54:04 2022 +0430
+
+    todo component is created
+
+[33mcommit 90594664f5258b197f1d267593e95acf0e85e6a5[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 16:46:48 2022 +0430
+
+    import todo list component to app.js
+
+[33mcommit 400737325fd17a0f26f1ed7365fe333c5fd2ef08[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 16:45:32 2022 +0430
+
+    todo list component create
+
+[33mcommit f4478c5e5a6c53b956d1753e70ec43f69d5468ea[m[33m ([m[1;32mcontext[m[33m)[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 16:25:50 2022 +0430
+
+    edit typing mistake
+
+[33mcommit 71f7bb62824d2a0892a425d1eb620ccde60be178[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 16:24:14 2022 +0430
+
+    todos context provider import to app.js and wrap components in it
+
+[33mcommit bf29586dc645ccceef4b89e92a51c325056fba38[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 16:18:26 2022 +0430
+
+    todos context created
+
+[33mcommit 119a00e09a243d31cbded50cad4806574e07ec43[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 13:06:37 2022 +0430
+
+    import add todo component to app.js
+
+[33mcommit 4f6cc143dd6f82f173ef4202e750e290e91a692d[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 13:00:08 2022 +0430
+
+    add todo component created
+
+[33mcommit 718b9a129070aa8c4ac82d6d91f1eb55f0319dca[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 12:48:37 2022 +0430
+
+    header component created and import to app.js
+
+[33mcommit c20f8cc495f22774f991aeed1b7a2b8d027f5d35[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 12:39:20 2022 +0430
+
+    import css file of bootstrap
+
+[33mcommit d1b429b437cb61506091498fa6988f3bcefaba16[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Wed May 11 12:25:03 2022 +0430
+
+    install bootstrap on project
+
+[33mcommit 3780f4636f1706f588dc6e795c7397b3249433ed[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Tue May 10 19:36:35 2022 +0430
+
+    delete some non-reqired files, modified App.js and index.js
+
+[33mcommit 3bcb231233863159a3f42ae52fd52caa9635c1c8[m
+Author: Hadise Matloob <hadisematloob@yahoo.com>
+Date:   Tue May 10 19:31:02 2022 +0430
+
+    Initialize project using Create React App
