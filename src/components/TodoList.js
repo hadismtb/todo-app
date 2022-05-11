@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useState, useContext } from 'react';
+
+// CONTEXT
+import { TodosContext } from '../context/TodosContextProvider';
 
 const TodoList = () => {
+    const {state, dispatch} = useContext(TodosContext);
+
     return (
         <div className='todoList mt-4'>
             <div className='container'>
