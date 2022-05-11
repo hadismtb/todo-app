@@ -3,11 +3,16 @@ import "bootstrap/dist/css/bootstrap.css";
 import Header from "./components/Header";
 import AddTodo from "./components/AddTodo";
 
+// CONTEXT
+import TodoContextProvider from "./context/TodosContextProvider";
+
 function App() {
   return (
     <>
-        <Header/>
-        <AddTodo/>
+        <TodosContextProvider>
+          <Header/>
+          <AddTodo/>  
+        </TodosContextProvider>
     </>
   );
 }
